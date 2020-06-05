@@ -1,7 +1,0 @@
-server:
-    context-path: /sr
-
-logging: 
-    level: 
-        org: 
-            springframework: ERROR

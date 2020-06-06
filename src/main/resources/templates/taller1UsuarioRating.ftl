@@ -48,7 +48,7 @@
 
             <div class="col-md-4 mb-3">
 
-            <label for="Rating">Género</label>
+            <label for="Rating">Rating</label>
                <select name="Rating" id="Rating" class="custom-select" required>
 
                 <option value="0">0</option>

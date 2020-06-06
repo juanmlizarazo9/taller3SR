@@ -18,7 +18,7 @@
 	      </div>
 	    </#if>
 	    <div class="container">
-            <h2>Taller 2 - Recomendador de restaurantes</h2>
+            <h2>Taller 1</h2>
             <a class="btn btn-warning btn-lg" href="/sr" role="button">Volver</a>
         </div>
 		<br/>
@@ -64,7 +64,7 @@
 
 			<div class="col-md-4 mb-3">
                   <button class="btn btn-primary" type="submit">Recomendar</button>
-            <div>
+            </div>
 
 
 		  </form>

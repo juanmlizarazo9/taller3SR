@@ -1,8 +1,5 @@
 package com.sr.taller1.controller;
-//import com.sr.taller1.data.DataRecommendationModels;
-//import com.sr.taller1.model.Recommendation;
-//import com.sr.taller1.model.User;
-//import com.sr.taller1.recommender.RecommenderManager;
+import com.sr.Models.User;
 import org.apache.mahout.cf.taste.common.TasteException;
 import org.apache.mahout.cf.taste.model.Preference;
 import org.springframework.stereotype.Controller;
@@ -10,24 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.security.Key;
 import java.util.*;
+
 
 
 @Controller
 public class ContactForm {
 
     private HashMap<String, Long> usuarios = new HashMap<String, Long>();
-    private HashMap<Long, String> tracks = new HashMap<Long, String>();
-   /*
-    private List<User> usuarioss;
+    private List<User> usuarios2;
 
-    private DataRecommendationModels models = DataRecommendationModels.instance();
-
-*/
     public ContactForm() throws IOException {
     }
 
@@ -87,7 +77,6 @@ public class ContactForm {
         model.put("ratings",usersPreferences);
 
          */
-
         return new ModelAndView("taller1UsuarioRating", model);
     }
 

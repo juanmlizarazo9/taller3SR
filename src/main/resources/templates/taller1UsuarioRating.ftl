@@ -46,29 +46,25 @@
                  <input type="text" class="form-control" name="user" id="user" placeholder="" required>
             </div>
 
-            <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3">
 
-            <label for="Rating">Rating</label>
-               <select name="Rating" id="Rating" class="custom-select" required>
+                    <label for="Rating">Rating</label>
+                    <select name="Rating" id="Rating" class="custom-select" required>
 
-                <option value="0">0</option>
-                <option value="0.5"> 0.5 </option>
-                <option value="1"> 1 </option>
-                <option value="1.5"> 1.5 </option>
-                <option value="2"> 2 </option>
-                <option value="2.5"> 2.5 </option>
-                <option value="3"> 3 </option>
-                <option value="3.5"> 3.5 </option>
-                <option value="4"> 4 </option>
-                <option value="4.5"> 4.5 </option>
-                <option value="5"> 5 </option>
+                        <option value="0">0</option>
+                        <option value="0.5"> 0.5 </option>
+                        <option value="1"> 1 </option>
+                        <option value="1.5"> 1.5 </option>
+                        <option value="2"> 2 </option>
+                        <option value="2.5"> 2.5 </option>
+                        <option value="3"> 3 </option>
+                        <option value="3.5"> 3.5 </option>
+                        <option value="4"> 4 </option>
+                        <option value="4.5"> 4.5 </option>
+                        <option value="5"> 5 </option>
 
-                </select>
-
-             </div>
-
-
-
+                    </select>
+            </div>
         </div>
         <button class="btn btn-primary" href="show_rating_list" role="button" type="submit">Agregar</button>
     </form>
@@ -82,25 +78,16 @@
 
 
         <div class="form-row">
-        <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3">
                 <label for="user">User</label>
                 <input type="text" class="form-control" name="user" id="user" placeholder="" required>
 
-        </div>
-
-        <div class="col-md-4 mb-3">
-                 <label for="ratings">Ratings</label>
-                 <input type="text" class="form-control" name="ratings" id="ratings" placeholder="" required>
-        </div>
-
+            </div>
         </div>
 
         <button class="btn btn-primary" href="addUserRating" role="button" type="submit">Agregar</button>
 
      </form>
-
-
-
 
 </div>
 

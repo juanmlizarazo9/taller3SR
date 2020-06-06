@@ -25,23 +25,40 @@
 
 <div class="container">
     <form name="t3_peliculas_recomendacion" action="t3_peliculas_recomendacion" method="POST">
+        <div class="form-row">
 
-        <div class="col-md-4 mb-3">
-            <label for="user">User</label>
-            <input type="text" class="form-control" name="user" id="user" placeholder="User" required>
+            <div class="col-md-4 mb-3">
+                <label for="user">User</label>
+                <input type="text" class="form-control" name="user" id="user" placeholder="User" required>
+            </div>
+
+            <div class="col-md-4 mb-3">
+
+                <label for="Genero">Género</label>
+                <select name="Genero" id="Genero" class="custom-select" required>
+
+                    <option value="">...</option>
+                    <option value="OH"> Ohio </option>
+                    <option value="NC"> Carolina del Norte </option>
+                    <option value="PA"> Pensilvania </option>
+                    <option value="QC"> Quebec </option>
+                    <option value="AB"> Alabama </option>
+                    <option value="WI"> Wisconsin</option>
+
+                </select>
+
+            </div>
+
+
+
+
+
+
         </div>
-
-
-
-
-
-
-
-
 
         <div class="col-md-4 mb-3">
             <button class="btn btn-primary" type="submit">Recomendar</button>
-</div>
+            <div>
 
 
     </form>
@@ -52,21 +69,15 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th scope="col">Nombre</th>
-                <th scope="col">Tags</th>
-                <th scope="col">Actores</th>
-                <th scope="col">Directores</th>
-                <th scope="col">Géneros</th>
+                <th scope="col">Item</th>
+                <th scope="col">Rating</th>
             </tr>
             </thead>
             <tbody>
             <#list recommendations as recommendation>
                 <tr class="success">
-                    <td>${recommendation.name}</td>
-                    <td>${recommendation.tags}</td>
-                    <td>${recommendation.actors}</td>
-                    <td>${recommendation.directors}</td>
-                    <td>${recommendation.genre}</td>
+                    <td>${recommendation.item}</td>
+                    <td>${recommendation.rating}</td>
                 </tr>
             </#list>
             </tbody>

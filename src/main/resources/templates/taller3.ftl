@@ -65,8 +65,9 @@
 <br/>
 
 <#if recommendations ??>
-    <h2>Recomendaciones</h2>
-
+     <div class="container">
+        <h2>Recomendaciones</h2>
+     </div>
     <div class="container">
         <table class="table table-striped">
             <thead>

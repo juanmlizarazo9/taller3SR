@@ -36,12 +36,6 @@
 
 
             </div>
-
-
-
-
-
-
         </div>
 
         <div class="col-md-4 mb-3">
@@ -50,6 +44,12 @@
 
 
     </form>
+</div>
+
+<br/>
+
+<div class="container">
+            <a class="btn btn-info btn-lg" href="t1_add_user_rating" role="button">Agregar ratings</a>
 </div>
 
 <#if recommendations ??>

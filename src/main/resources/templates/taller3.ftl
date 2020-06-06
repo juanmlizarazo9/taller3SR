@@ -34,18 +34,6 @@
 
             <div class="col-md-4 mb-3">
 
-                <label for="Genero">Género</label>
-                <select name="Genero" id="Genero" class="custom-select" required>
-
-                    <option value="">...</option>
-                    <option value="OH"> Ohio </option>
-                    <option value="NC"> Carolina del Norte </option>
-                    <option value="PA"> Pensilvania </option>
-                    <option value="QC"> Quebec </option>
-                    <option value="AB"> Alabama </option>
-                    <option value="WI"> Wisconsin</option>
-
-                </select>
 
             </div>
 

@@ -74,6 +74,39 @@
     </form>
 </div>
 
+<br/>
+
+<div class="container">
+    <h2>Users</h2>
+    <form name="addUserRating" action="addUserRating" method="POST">
+
+
+        <div class="form-row">
+        <div class="col-md-4 mb-3">
+                <label for="user">User</label>
+                <input type="text" class="form-control" name="user" id="user" placeholder="" required>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+                 <label for="ratings">Ratings</label>
+                 <input type="text" class="form-control" name="ratings" id="ratings" placeholder="" required>
+        </div>
+
+        </div>
+
+
+
+        <button class="btn btn-primary" href="addUserRating" role="button" type="submit">Agregar</button>
+
+     </form>
+
+
+
+
+</div>
+
+
 <#if ratings ??>
     <div class="container">
         <table class="table table-striped">

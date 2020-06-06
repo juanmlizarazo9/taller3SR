@@ -32,10 +32,6 @@
                 <input type="text" class="form-control" name="user" id="user" placeholder="User" required>
             </div>
 
-            <div class="col-md-4 mb-3">
-
-
-            </div>
         </div>
 
         <div class="col-md-4 mb-3">
@@ -47,12 +43,22 @@
 </div>
 
 <br/>
+<br/>
+<br/>
+
+<h2>Agregar Ratings</h2>
 
 <div class="container">
             <a class="btn btn-info btn-lg" href="t1_add_user_rating" role="button">Agregar ratings</a>
 </div>
 
+<br/>
+<br/>
+<br/>
+
 <#if recommendations ??>
+    <h2>Recomendaciones</h2>
+
     <div class="container">
         <table class="table table-striped">
             <thead>

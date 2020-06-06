@@ -36,17 +36,10 @@
 		</thead>
 		<tbody>
 		<tr class="success">
-			<td>Taller 3 - Filtrado semántico y y análisis de Grafos.</td>
+			<td>Taller 3 - Filtrado semántico y análisis de Grafos.</td>
 			<td>Sistema de recomendación de películas.</td>
 			<td>07/06/2020</td>
-			<td>
-				<a class="btn btn-info btn-lg" style="margin:2px;" href="taller1" role="button">Factorización (Taller 1)</a>
-
-				<a class="btn btn-info btn-lg" style="margin:2px;" href="taller2" role="button">Contexto (Taller 2)</a>
-
-				<a class="btn btn-info btn-lg" style="margin:2px;" href="taller3" role="button">Filtrado (Taller 3)</a>
-			</td>
-
+			<td><a class="btn btn-info btn-lg" href="taller3" role="button">VER</a></td>
 		</tr>
 		</tbody>
 	</table>

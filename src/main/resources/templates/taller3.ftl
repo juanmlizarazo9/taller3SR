@@ -25,11 +25,21 @@
 
 <br/>
 <br/>
+
+            <div class="container">
+               <h2>Agregar ratings y usuarios</h2>
+               <div class="col-md-4 mb-3">
+                 <a class="btn btn-primary" href="t3_add_user_rating" role="button">Agregar ratings</a>
+               </div>
+
+            </div>
+
+<br/>
 <br/>
 
 
 <div class="container">
-    <h2>Recomendación Usuario</h2>
+    <h2>Recomendación usuario</h2>
 </div>
 
 <div class="container">
@@ -50,19 +60,6 @@
 
 <br/>
 <br/>
-<br/>
-
-            <div class="container">
-               <h2>Agregar Ratings y usuarios</h2>
-               <div class="col-md-4 mb-3">
-                 <a class="btn btn-primary" href="t1_add_user_rating" role="button">Agregar ratings</a>
-               </div>
-
-            </div>
-
-<br/>
-<br/>
-<br/>
 
 <#if recommendations ??>
      <div class="container">
@@ -72,23 +69,21 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th scope="col">Id</th>
                 <th scope="col">Nombre</th>
-                <th scope="col">Tags</th>
+                <th scope="col">Generos</th>
                 <th scope="col">Actores</th>
                 <th scope="col">Directores</th>
-                <th scope="col">Generos</th>
+                <th scope="col">Tags</th>
             </tr>
             </thead>
             <tbody>
             <#list recommendations as recommendation>
                 <tr class="success">
-                    <td>${recommendation.id}</td>
-                    <td>${recommendation.nombre}</td>
+                    <td>${recommendation.title}</td>
+                    <td>${recommendation.genres}</td>
+                    <td>${recommendation.actors}</td>
+                    <td>${recommendation.directors}</td>
                     <td>${recommendation.tags}</td>
-                    <td>${recommendation.actores}</td>
-                    <td>${recommendation.directores}</td>
-                    <td>${recommendation.generos}</td>
                 </tr>
             </#list>
             </tbody>

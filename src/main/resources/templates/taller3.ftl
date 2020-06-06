@@ -17,47 +17,54 @@
         ${errorMessage}
     </div>
 </#if>
+
 <div class="container">
     <h2>Taller 3 - Recomendador de películas</h2>
     <a class="btn btn-warning btn-lg" href="/sr" role="button">Volver</a>
 </div>
+
 <br/>
+<br/>
+<br/>
+
+
+<div class="container">
+    <h2>Recomendación Usuario</h2>
+</div>
 
 <div class="container">
     <form name="t3_peliculas_recomendacion" action="t3_peliculas_recomendacion" method="POST">
+
         <div class="form-row">
 
             <div class="col-md-4 mb-3">
-                <label for="user">User</label>
                 <input type="text" class="form-control" name="user" id="user" placeholder="User" required>
             </div>
 
         </div>
 
-        <div class="col-md-4 mb-3">
-            <button class="btn btn-primary" type="submit">Recomendar</button>
-            <div>
-
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-primary" type="submit">Recomendar</button>
+            </div>
 
     </form>
 </div>
 
-
 <br/>
 <br/>
 <br/>
-
-<h2>Agregar Ratings</h2>
 
 <div class="container">
-            <a class="btn btn-info btn-lg" href="t1_add_user_rating" role="button">Agregar ratings</a>
+        <h2>Agregar Ratings y usuarios</h2>
+        <div class="col-md-4 mb-3">
+           <a class="btn btn-primary" href="t1_add_user_rating" role="button">Agregar ratings</a>
+        </div>
+
 </div>
 
 <br/>
 <br/>
 <br/>
-
-
 
 <#if recommendations ??>
     <h2>Recomendaciones</h2>

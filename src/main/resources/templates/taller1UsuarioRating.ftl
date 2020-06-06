@@ -70,7 +70,7 @@
 
 
         </div>
-        <button class="btn btn-primary" href="show_rating_list" role="button" type="submit">Mostrar</button>
+        <button class="btn btn-primary" href="show_rating_list" role="button" type="submit">Agregar</button>
     </form>
 </div>
 
@@ -94,8 +94,6 @@
         </div>
 
         </div>
-
-
 
         <button class="btn btn-primary" href="addUserRating" role="button" type="submit">Agregar</button>
 

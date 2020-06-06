@@ -22,7 +22,6 @@ public class Taller1Controller {
 
     public Taller1Controller() throws IOException, TasteException {
     }
-    //t1_rc_artistas_canciones
 
     @RequestMapping("/t2_restaurantes_recomendacion")
     public ModelAndView t2RecomendacionRestaurantes(@RequestParam Map<String, String> params) throws TasteException {

@@ -1,2 +1,2 @@
-# taller1-sistemas-recomendacion
-Taller 1 sistemas de recomendación uniandes
+# taller3-sistemas-recomendacion
+Taller 3 sistemas de recomendación uniandes
